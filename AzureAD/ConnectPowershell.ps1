@@ -26,9 +26,9 @@ Get-MsolGroup | ForEach-Object {
 Get-MsolPartnerContract | fl *
 
 #...and respective domains
-Get-MsolPartnerContract | ForEach-Object {
-    Get-MsolDomain -TenantId $_.TenantId | fl *
-}
+#Get-MsolPartnerContract | ForEach-Object {
+#    Get-MsolDomain -TenantId $_.TenantId | fl *
+#}
 
 #...get tenant information
 Get-MsolPartnerContract | ForEach-Object {
@@ -41,7 +41,7 @@ $tenant1Name = $tenantContracts[0].DefaultDomainName
 $tenant2Id = $tenantContracts[1].TenantId.Guid
 $tenant2Name = $tenantContracts[1].DefaultDomainName
 
-#and review tenant roles with partner members
+#and review tenant 1 roles with partner members
 Get-MsolRole -TenantId $tenant1Id | ForEach-Object {
     Write-Output $_.Name
     Get-MsolRoleMember -RoleObjectId $_.ObjectId
@@ -50,7 +50,7 @@ Get-MsolRole -TenantId $tenant1Id | ForEach-Object {
 
 Get-MsolRole -TenantId $tenant2Id | ForEach-Object {
     Write-Output $_.Name
-    Get-MsolRoleMember -RoleObjectId $_.ObjectId
+    Get-MsolRoleMember -RoleObjectId $_.ObjectId | ft -AutoSize
     Write-Output ""
 }
 

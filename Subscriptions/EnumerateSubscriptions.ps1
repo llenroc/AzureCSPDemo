@@ -5,10 +5,10 @@
 Switch-AzureMode -Name AzureResourceManager
 
 #add the provider account
-Add-AzureAccount -Credential $providerCred
+#Add-AzureAccount -Credential $providerCred
 
 #enumerate subscriptions and notice that no tenants are there
-Get-AzureSubscription
+Get-AzureSubscription | Remove-AzureSubscription -Force
 
 #add tenant subscriptions, notice the -Tenant parameter
 Add-AzureAccount -Credential $providerCred -Tenant $tenant1Name

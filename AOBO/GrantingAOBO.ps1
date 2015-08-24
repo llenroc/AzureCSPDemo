@@ -23,4 +23,4 @@ New-AzureRoleAssignment –ObjectId $oidHelpDeskAgents -RoleDefinitionName “Owner”
 Get-AzureRoleAssignment
 
 #Remove HelpDeskAgents from Subscription Owners
-Remove-AzureRoleAssignment -ObjectId $oidHelpDeskAgents -RoleDefinitionName "Owner" -Force -Scope ("/subscriptions/" + (Get-AzureSubscription | ? isDefault -eq true).SubscriptionId)
+Remove-AzureRoleAssignment -ObjectId $oidHelpDeskAgents -RoleDefinitionName "Owner" -Force -Scope ("/subscriptions/" + (Get-AzureSubscription | ? isCurrent -eq true).SubscriptionId)
