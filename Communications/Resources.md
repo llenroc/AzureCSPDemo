@@ -16,6 +16,9 @@
 ### Documentation resources
 The [Azure Documentation Center][8], respective [GitHub repository][9], and the constantly updated [Azure blog][10] are all obligatory resources to help keep up with the constant evolution and change driving Azure.
 
+## Commerce REST API
+[Commerce API .Net sample GitHub repository][21]
+
 ### Azure AD
 [Sample MVC web application demonstrates how to query Azure Active Directory using the Graph API][17]
 
@@ -39,7 +42,7 @@ Development and releases of the [PowerShell module for Azure][15].
 ### Azure Automation
 [Collections of Automation resources that can include runbooks, modules, credentials, schedules, variables, connections, certificates, and jobs, including ARM templates][18].
 
-[1]: https://msdn.microsoft.com/en-us/library/partnercenter/dn974944.aspx)
+[1]: https://msdn.microsoft.com/en-us/library/partnercenter/dn974944.aspx
 [2]: https://msdn.microsoft.com/en-us/library/azure/dn790568.aspx
 [3]: https://msdn.microsoft.com/Library/Azure/Ad/Graph/api/api-catalog
 [4]: https://github.com/Azure/azure-rest-api-specs
@@ -59,3 +62,5 @@ Development and releases of the [PowerShell module for Azure][15].
 [18]: https://github.com/azureautomation/automation-packs
 [19]: https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/
 [20]: https://azure.microsoft.com/en-us/documentation/articles/resource-group-deploy-debug/
+[21]: https://github.com/PartnerCenterSamples/Commerce-API-DotNet
+
