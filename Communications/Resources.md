@@ -35,6 +35,10 @@ The [Azure Documentation Center][8], respective [GitHub repository][9], and the 
 
 [ARMClient GitHub repository: A simple command line tool to invoke the Azure Resource Manager API][14]
 
+
+[Azure Resource Manager Preview SDKs][22]
+
+
 ### Powershell & Desired State Configuration
 Development and releases of the [PowerShell module for Azure][15].
 [Central repository for PowerShell Desired State Configuration (DSC) resources.][16]
@@ -63,4 +67,5 @@ Development and releases of the [PowerShell module for Azure][15].
 [19]: https://azure.microsoft.com/en-us/documentation/articles/resource-group-overview/
 [20]: https://azure.microsoft.com/en-us/documentation/articles/resource-group-deploy-debug/
 [21]: https://github.com/PartnerCenterSamples/Commerce-API-DotNet
+[22]: https://azure.microsoft.com/en-us/blog/azure-resource-manager-preview-sdks/
 
