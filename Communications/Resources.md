@@ -25,6 +25,8 @@ The [Azure Documentation Center][8], respective [GitHub repository][9], and the 
 ### Azure Resource Manager:
 [Azure Resource Manager Overview][19]
 
+[Resource Manager support for services, regions, and API versions][23]
+
 [Azure QuickStart Templates][11]
 
 [Simple examples illustrating how to build Azure Resource Manager templates][12]
@@ -35,16 +37,21 @@ The [Azure Documentation Center][8], respective [GitHub repository][9], and the 
 
 [ARMClient GitHub repository: A simple command line tool to invoke the Azure Resource Manager API][14]
 
-
 [Azure Resource Manager Preview SDKs][22]
+
+[Best practices for designing Azure Resource Manager templates][27]
 
 
 ### Powershell & Desired State Configuration
 Development and releases of the [PowerShell module for Azure][15].
 [Central repository for PowerShell Desired State Configuration (DSC) resources.][16]
+[Powershell Desired State Configuration][25] and corresponding [GitHub repo][26].
 
 ### Azure Automation
 [Collections of Automation resources that can include runbooks, modules, credentials, schedules, variables, connections, certificates, and jobs, including ARM templates][18].
+
+### Other Code Samples
+[Azure Code samples][24]
 
 [1]: https://msdn.microsoft.com/en-us/library/partnercenter/dn974944.aspx
 [2]: https://msdn.microsoft.com/en-us/library/azure/dn790568.aspx
@@ -68,4 +75,8 @@ Development and releases of the [PowerShell module for Azure][15].
 [20]: https://azure.microsoft.com/en-us/documentation/articles/resource-group-deploy-debug/
 [21]: https://github.com/PartnerCenterSamples/Commerce-API-DotNet
 [22]: https://azure.microsoft.com/en-us/blog/azure-resource-manager-preview-sdks/
-
+[23]: https://azure.microsoft.com/en-us/documentation/articles/resource-manager-supported-services/
+[24]: https://azure.microsoft.com/en-us/documentation/samples/
+[25]: https://msdn.microsoft.com/en-us/PowerShell
+[26]: https://github.com/PowerShell/PowerShell-Docs
+[27]: https://azure.microsoft.com/en-us/documentation/articles/best-practices-resource-manager-design-templates/
